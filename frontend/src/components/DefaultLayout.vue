@@ -129,6 +129,12 @@ import {computed} from "vue";
 const userStore = useUserStore()
 
 const user = computed(() => userStore.user)
+// const user = computed(() => {
+//   return {
+//     name: 'John Doe',
+//     email: 'john@example.com'
+//   }
+// });
 
 const navigation = [
   {name: 'Upload', to: {name: 'Home'}},
